@@ -12,4 +12,18 @@ PointerKit is a proof of concept framework to use a pointing device on iOS. This
 
 This project uses [PTFakeTouch](https://github.com/PugaTang/PTFakeTouch) for faking touches.
 
+## Implementing
+If you're an app developer, you can add mouse support by compiling and including the PointerKit framework (from ```RemotePointer.xcworkspace```) and adding a couple lines of code to your project:
+
+```
+var manager: PointerManager!
+
+override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+	
+    manager = PointerManager(with: self, in: UIApplication.shared.keyWindow!)
+
+    manager.showConnector()
+}
+```
 
