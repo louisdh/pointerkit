@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PointerKit/PointerKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:RemotePointer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PTFakeTouch-master 2/PTFakeTouch.xcodeproj">
+   </FileRef>
+</Workspace>
