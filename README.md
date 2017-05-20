@@ -4,6 +4,8 @@
 <img src="readme-resources/PointerKit.gif" style="max-height: 4480px;" alt="PanelKit for iOS">
 <br>
 <i>A Magic Mouse connected to an iPad running <a href="https://itunes.apple.com/us/app/pixure-professional-pixel-art-studio/id893400841?mt=8">Pixure</a> with <a href="https://github.com/louisdh/panelkit">PanelKit</a>.</i>
+<br>
+<i><a href="https://youtu.be/9WUlH8MyxLE">(High res video)</a></i>
 </p>
 
 
