@@ -17,7 +17,7 @@ This project uses [PTFakeTouch](https://github.com/PugaTang/PTFakeTouch) for fak
 ## Implementing
 If you're an app developer, you can add mouse support by compiling and including the PointerKit framework (from ```RemotePointer.xcworkspace```) and adding a couple lines of code to your project:
 
-```
+```swift
 var manager: PointerManager!
 
 override func viewDidAppear(_ animated: Bool) {
@@ -28,4 +28,3 @@ override func viewDidAppear(_ animated: Bool) {
     manager.showConnector()
 }
 ```
-
