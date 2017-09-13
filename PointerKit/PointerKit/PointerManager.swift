@@ -89,11 +89,11 @@ public class PointerManager: NSObject, MCBrowserViewControllerDelegate, PointerC
 			PTFakeMetaTouch.fakeTouchId(currentTouchId, at: newPoint, with: .moved)
 		}
 		
-		UIView.animate(withDuration: 0.10) {
-			
+//		UIView.animate(withDuration: 0.10) {
+		
 			self.pointerView.center = newPoint
 
-		}
+//		}
 		
 	}
 	
