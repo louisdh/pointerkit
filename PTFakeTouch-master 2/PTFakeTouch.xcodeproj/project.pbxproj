@@ -37,6 +37,20 @@
 			remoteGlobalIDString = 15BBDEF81D61AD5B0098330F;
 			remoteInfo = PTFakeTouch;
 		};
+		BE26D4C91F69CF9300D5A874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE76235E1EBDF1AE006422FE /* PointerKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE9223351ECF8695005FC112;
+			remoteInfo = PointerKit_macOS;
+		};
+		BE26D4CD1F69CF9300D5A874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4988E01EBDF29E00070009 /* PointerKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE9223351ECF8695005FC112;
+			remoteInfo = PointerKit_macOS;
+		};
 		BE4988E51EBDF29E00070009 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BE4988E01EBDF29E00070009 /* PointerKit.xcodeproj */;
@@ -176,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				BE4988E61EBDF29E00070009 /* PointerKit.framework */,
+				BE26D4CE1F69CF9300D5A874 /* PointerKit_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				BE7623631EBDF1AE006422FE /* PointerKit.framework */,
+				BE26D4CA1F69CF9300D5A874 /* PointerKit_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,7 +269,7 @@
 		15BBDEF01D61AD5B0098330F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = tangxuan;
 				TargetAttributes = {
 					15BBDEF81D61AD5B0098330F = {
@@ -293,6 +309,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		BE26D4CA1F69CF9300D5A874 /* PointerKit_macOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PointerKit_macOS.framework;
+			remoteRef = BE26D4C91F69CF9300D5A874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE26D4CE1F69CF9300D5A874 /* PointerKit_macOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PointerKit_macOS.framework;
+			remoteRef = BE26D4CD1F69CF9300D5A874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		BE4988E61EBDF29E00070009 /* PointerKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -368,14 +398,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -417,14 +453,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

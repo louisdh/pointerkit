@@ -39,7 +39,7 @@ class ViewController: NSViewController, MCBrowserViewControllerDelegate {
 			self.view.removeTrackingArea(prevTrackingArea)
 		}
 		
-		let options : NSTrackingAreaOptions = [.mouseMoved, .activeAlways, .enabledDuringMouseDrag]
+		let options : NSTrackingArea.Options = [.mouseMoved, .activeAlways, .enabledDuringMouseDrag]
 		
 		trackingArea = NSTrackingArea(rect: self.view.bounds, options: options, owner: self.view, userInfo: nil)
 		self.view.addTrackingArea(trackingArea)

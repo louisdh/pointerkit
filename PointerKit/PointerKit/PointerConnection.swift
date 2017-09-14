@@ -187,7 +187,7 @@ public class PointerConnection: NSObject, MCSessionDelegate {
 		// Called when a peer starts sending a file to us
 	}
 	
-	public func session(_ session: MCSession, didFinishReceivingResourceWithName resourceName: String, fromPeer peerID: MCPeerID, at localURL: URL, withError error: Error?)  {
+	public func session(_ session: MCSession, didFinishReceivingResourceWithName resourceName: String, fromPeer peerID: MCPeerID, at localURL: URL?, withError error: Error?)  {
 		// Called when a file has finished transferring from another peer
 	}
 	

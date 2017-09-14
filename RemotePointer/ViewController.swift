@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 		manager.showConnector()
 	}
 
-	func makeRed() {
+	@objc func makeRed() {
 		
 		print("makeRed")
 
